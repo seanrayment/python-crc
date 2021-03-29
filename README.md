@@ -16,6 +16,8 @@ The intuition behind this is explained best in the video above. The idea is that
 
 \<handwaving\> In polynomial arithmetic mod 2, there are no carries, so groups of bit flips that happen in different locations in the transmitted message produce received messages that are more predictably different. This ends up making it much easier to choose the special value that we use to compute the check value. \</handwaving\>
 
+See this wikipedia entry for a list of polynomial codes used in practice: https://en.wikipedia.org/wiki/Cyclic_redundancy_check#Polynomial_representations_of_cyclic_redundancy_checks
+
 ### Usage
 
 ```python
