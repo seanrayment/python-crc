@@ -1,6 +1,6 @@
 # python-crc
 
-This is a naive implementation of a cyclic redundancy check (CRC). See the following resources to learn about CRC:
+This is a naive python implementation of a cyclic redundancy check (CRC). See the following resources to learn about CRC:
 
 https://zlib.net/crc_v3.txt
 
