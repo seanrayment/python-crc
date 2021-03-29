@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=izG7qT0EpBw
 
 CRC detects transmission errors by computing a check value to be sent along with a message. The receiver can verify the message against the check value by re-computing it.
 
-The check value is calculated by taking the remainder of our message (in bits) divided by a special value. The special value is carefully chosen to optimize the number of consecutive bits that can change such that the check value will always be different.   
+The check value is calculated by taking the remainder of our message (in bits) divided by a special value. The special value is carefully chosen to maximize the number of consecutive bits that can change such that the check value will always be different.   
 
 The tricky bit is that we use polynomial representations of the message bitstring and special value in computation, and all operations are in mod 2. 
 
